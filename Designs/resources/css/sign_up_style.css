@@ -1,0 +1,54 @@
+body{
+   background-color: lightgrey;
+}
+.head{
+    border-bottom: 1px solid;
+    height: 40px;
+}
+.info{
+    float: right;
+    width: 20%;
+    height: 40px;
+}
+.logo{
+    float: left;
+    width: 40%;
+    height: 40px;
+}
+.holder{
+    float: right;
+    margin: 20px;
+}
+.empty{
+    margin: 20px;
+    float: left;
+}
+.main_content{
+    background-color: lightgrey;
+    height: 600px;
+    margin: 40px;
+    padding: 30px;
+    /* border: 1px solid black; */
+}
+.login_form{
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+}
+.form{
+    background-color:white;
+    display: block;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.control{
+    width: 60%;
+    margin: 20px;
+}
