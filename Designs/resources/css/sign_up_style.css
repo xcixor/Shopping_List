@@ -1,34 +1,32 @@
-body{
-   background-color: lightgrey;
-}
-.head{
+
+header{
     border-bottom: 1px solid;
-    height: 40px;
+    margin-bottom: 40px;
+    background-color: beige;
 }
-.info{
+img{
+    border-radius: 8px;
+    padding: 10px;
+    max-height: 55px;
+    min-width: 150px;
+}
+
+#info{
     float: right;
-    width: 20%;
-    height: 40px;
+    margin: 40px;
 }
-.logo{
+#logo{
     float: left;
-    width: 40%;
-    height: 40px;
+    margin-left: 40px;
 }
-.holder{
-    float: right;
-    margin: 20px;
-}
-.empty{
-    margin: 20px;
-    float: left;
-}
+
 .main_content{
-    background-color: lightgrey;
     height: 600px;
     margin: 40px;
     padding: 30px;
-    /* border: 1px solid black; */
+}
+input{
+    padding: 10px;
 }
 .login_form{
     background-color: #F0F0F0;
@@ -38,7 +36,7 @@ body{
     text-align: center;
     padding: 10px;
     width: 80%;
-    height: 80%;
+    /* height: 80%; */
 }
 .form{
     background-color:white;

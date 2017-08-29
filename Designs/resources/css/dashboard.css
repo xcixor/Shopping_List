@@ -1,0 +1,70 @@
+.head{
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid black; */
+}
+header{
+    border-bottom: 1px solid black;
+}
+img{
+    border-radius: 8px;
+    padding: 10px;
+    max-height: 55px;
+    min-width: 150px;
+}
+#logo{
+    float: left;
+}
+#user{
+    float: right;
+    padding-right: 20px;
+    /* width: 15%; */
+}
+#umg{
+    float: left;
+}
+#uname{
+    float: right;
+}
+#shopping_list{
+    border: 1px solid black;
+    height: 600px;
+    margin: 40px;
+    padding: 30px;
+}
+#inner{
+    border: 1px solid black;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+form{
+    padding: 20px;
+    margin: 20px;
+}
+input{
+    padding: 8px;
+}
+#inner_lower{
+    border: 1px solid black;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+#middle{
+    height: 10%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
