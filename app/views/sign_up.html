@@ -4,58 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+     integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="/resources/css/sign_up_style.css"> -->
     <title>Landing Page</title>
-    <link rel="stylesheet" href="/resources/css/sign_up_style.css">
-    <!-- <link rel="stylesheet" href="Desi" -->
 </head>
-
 <body>
         <header>
-                <div id="logo">
-                    <img src="/resources/images/cart1.png"/>
-                </div>
-                <div id="info">
-                        <a href="/sign_in.html">sign in</a>
-                </div>
         </header>
-    <div class="main_content">
-        <div class="login_form">
-            <h2>Create Account</h2>
-            <form class="form">
-                        <div class="control">
-                                First Name:<br>
-                                <input type="text" name="first"><br>
-                        </div>
-                        <div class="control">
-                                Last Name:<br>
-                                <input type="text" name="username"><br>
-                        </div>
-                        <div class="control">
-                                Email:<br>
-                                <input type="text" name="username"><br>
-                        </div>
-                        <div class="control">
-                                User Name:<br>
-                                <input type="text" name="username"><br>
-                        </div>
-                        <div class="control">
-                                Password:<br>
-                                <input type="password" name="Password"><br>
-                        </div>
-                        <div class="control">
-                                Confirm Password:<br>
-                                <input type="password" name="Password" placeholder="password"><br>
-                        </div>
-                        <div class="control">
-                                <input type="submit" name="Log in">  
-                        </div>
-                        <br>
- 
-            </form>
-        </div>
+        <form>
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
 
-    </div>
-
+     <!-- scripts -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" 
+     integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" 
+     integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     
 </body>
 </html>
