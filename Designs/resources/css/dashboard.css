@@ -32,6 +32,10 @@ img{
     margin: 40px;
     padding: 30px;
 }
+#btn_div{
+    padding: 20px;
+    margin-left: 135px;
+}
 #inner{
     border: 1px solid black;
     margin: 0 auto;
