@@ -5,18 +5,13 @@
 <link rel="stylesheet" href="{{url_for('static', filename='css/sign_up.css')}}">
 <title>Login</title>
 {%endblock head%}
-
-
-
-
-
 {% block content%}
 <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
               </div>
               <div class="col-md-4">
-                  <form>
+                  <form action="{{url_for('save_user')}}" method="POST">
                       <h5><u>Signup Here</h5>
                         <div class="form-group">
                             <input type="text" class="form-control" id="username" placeholder="First Name">
