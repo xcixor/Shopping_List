@@ -3,9 +3,16 @@
 {% extends "base.html" %}
 
 {% block head%}
-<link rel="stylesheet" href="{{url_for('static', filename='css/sign_in.css')}}">
 <title>Login</title>
 {%endblock head%}
+
+
+{% block style %}
+<!-- <link rel="stylesheet" href="{{url_for('static', filename='css/sign_in.css')}}">  -->
+<link rel="stylesheet" href="../static/css/sign_in.css">
+{% endblock style %}
+
+
 
 
 {% block content %}

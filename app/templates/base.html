@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     {% endblock head %}
-
     <!-- stylesheets -->
-    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap-4/css/bootstrap.min.css')}}">
-
+    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap-4/css/bootstrap.min.css')}}"> 
+    {% block style %}
+    {% endblock style %}
 </head>
 <body>
     {% block content%}
