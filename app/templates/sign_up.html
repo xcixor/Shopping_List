@@ -3,15 +3,16 @@
 
 {% block head%}
 <link rel="stylesheet" href="{{url_for('static', filename='css/sign_up.css')}}">
-<title>Login</title>
+<title>Sign Up</title>
 {%endblock head%}
+
 {% block content%}
 <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
               </div>
               <div class="col-md-4">
-                  <form action="{{url_for('save_user')}}" method="POST">
+                  <form action="{{url_for('sign_up')}}" method="POST">
                       <h5><u>Signup Here</h5>
                         <div class="form-group">
                             <input type="text" class="form-control" id="username" placeholder="First Name">
@@ -39,28 +40,3 @@
         </div>
 
 {% endblock content%}
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../frameworks/bootstrap-4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../static/css/sign_up.css">
-    <title>Landing Page</title>
-</head>
-<body>
-    <header>
-    </header>
-
-
-     <!-- scripts -->
-  
-     <script src="../frameworks/bootstrap-4/css/bootstrap.min.js"></script>
-     <script src="../static/js/jquery-3.2.1.min.js"></script>
-    
-</body>
-</html> -->

@@ -1,15 +1,12 @@
-{% extend base.html%}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../frameworks/bootstrap-4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../static/css/dashboard.css">
-    <title>Dashboard</title>
-</head>
-<body>
+
+{% extends "base.html" %}
+
+{% block head%}
+<link rel="stylesheet" href="{{url_for('static', filename='css/dashboard.css')}}">
+<title>Dashboard</title>
+{%endblock head%}>
+
+{% block content%}
     <header>
         <div class="container-fluid">
     </header>
@@ -98,11 +95,4 @@
   </div>
 
   </div>
-
-     <!-- scripts -->
-  
-     <script src="../frameworks/bootstrap-4/css/bootstrap.min.js"></script>
-     <script src="../static/js/jquery-3.2.1.min.js"></script>
-    
-</body>
-</html>
+  {% endblock content%}

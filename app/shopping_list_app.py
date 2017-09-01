@@ -14,9 +14,14 @@ def login():
 def dashboard():
     return render_template("dashboard.html")
 
-@app.route('/save_user',methods=['POST'])
-def save_user():
-    return redirect(url_for("index"))
+@app.route('/sign_in', methods = ['POST'])
+def sign_in():
+    return redirect(url_for('dashboard'))
+
+@app.route('/sign_up', methods = ['POST'])
+def sign_up():
+    return redirect(url_for('dashboard'))
+
 
 if __name__=='__main__':
     app.run(debug = True, port = 8000,host='0.0.0.0')
