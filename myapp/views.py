@@ -2,8 +2,6 @@ from flask import Flask, render_template, redirect, url_for, request
 
 from myapp import APP
 
-APP = Flask(__name__)
-
 @APP.route('/')
 def index():
     return render_template("sign_up.html")
