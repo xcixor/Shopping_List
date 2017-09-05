@@ -18,7 +18,15 @@ def dashboard():
 def sign_in():
     return redirect(url_for('dashboard'))
 
-@APP.route('/sign_up', methods = ['POST'])
+@APP.route('/sign_up', methods = ['GET'])
 def sign_up():
+    
+    """ 
+    for signing up the user 
+    """
     return redirect(url_for('dashboard'))
+
+@APP.route('/shopping_lists', methods = ['POST','GET'])
+def shopping_lists():
+    return render_template("shoppinglists.html")
 
